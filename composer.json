@@ -1,19 +1,16 @@
 {
-	"name" : "SchoolBridge/SBCDN",
-	"description" : "SchoolBridge PHP Client Library",
-	"type" : "library",
-	"license" : "MIT",
-	"authors" : [{
-			"name" : "Inbox Design",
-			"email" : "support@inboxdesign.co.nz"
-		}
-	],
+	"name":"SchoolBridge/SBCDN",
+	"description":"SchoolBridge PHP Client Library",
+	"type":"library",
+	"license":"MIT",
+	"authors":[{
+		"name":"Inbox Design",
+		"email":"support@inboxdesign.co.nz"
+	}],
 	"autoload": {
 		"psr-4": {
 			"SchoolBridge\\SBCDN\\": "src"
 		}
 	},
-	"require" : {
-		"php" : ">=5.6",
-	}
+	"require":{}
 }
