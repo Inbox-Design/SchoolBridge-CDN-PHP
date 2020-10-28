@@ -8,6 +8,11 @@
 			"email" : "support@inboxdesign.co.nz"
 		}
 	],
+	"autoload": {
+		"psr-4": {
+			"SchoolBridge\\SBCDN\\": "src"
+		}
+	},
 	"require" : {
 		"php" : ">=5.6",
 	}

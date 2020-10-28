@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	/***
 		SchoolBridge CDN Client - PHP
@@ -6,6 +6,8 @@
 		https://www.inboxdesign.co.nz/
 		https://bitbucket.org/sheldonlendrum/schoolbridge-cdn-client-php/
 	**/
+
+	namespace SchoolBridge\SBCDN;
 
 	defined('SB_CDN_AUTH_USERNAME') or die('Please define your SchoolBridge SB_CDN_AUTH_USERNAME.');
 	defined('SB_CDN_AUTH_PASSWORD') or die('Please define your SchoolBridge SB_CDN_AUTH_PASSWORD.');
