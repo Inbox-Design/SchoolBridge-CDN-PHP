@@ -8,6 +8,11 @@ This is the PHP client library to upload files to the SchoolBridge CDN.
 * SB_CDN_AUTH_USERNAME - provided by Inbox Design
 * SB_CDN_AUTH_PASSWORD - provided by Inbox Design
 
+### Installation ###
+
+```
+composer require schoolbridge/sbcdn
+```
 
 ### Example ###
 
@@ -16,9 +21,9 @@ This is the PHP client library to upload files to the SchoolBridge CDN.
 	
 	$file = 'path/to/my/image.jpg';
 	
-	$cdn = new CDN();
+	$sbcdn = new SBCDN();
 	
-	$upload = $cdn
+	$upload = $sbcdn
 			->add($file)
 			->destination('tidewater/requests/') // school 'permalink' then folder path
 			->name('file_'. time() .'.jpg') // optional
