@@ -104,7 +104,7 @@
 
 			curl_setopt($this->curl, CURLOPT_URL, $this->upload_server);
 			curl_setopt($this->curl, CURLOPT_POSTFIELDS, [
-				'file' => new CURLFile($this->file_path, $this->file_type, basename($this->file_path)),
+				'file' => new \CURLFile($this->file_path, $this->file_type, basename($this->file_path)),
 				'destination' => $this->destination,
 				'file_name' => (!empty($this->file_name) ? $this->file_name : basename($this->file_path))
 			]);

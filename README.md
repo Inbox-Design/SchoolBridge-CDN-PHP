@@ -19,8 +19,16 @@ composer require schoolbridge/sbcdn
 ```
 <?php 
 	
+	require_once 'vendor/autoload.php';
+
+	use \SchoolBridge\sbcdn\SBCDN as SBCDN;
+
+	define('SB_CDN_AUTH_USERNAME', 'your username from Inbox Design');
+	define('SB_CDN_AUTH_PASSWORD', 'your secret app toekn here');
+
 	$file = 'path/to/my/image.jpg';
-	
+
+
 	$sbcdn = new SBCDN();
 	
 	$upload = $sbcdn
