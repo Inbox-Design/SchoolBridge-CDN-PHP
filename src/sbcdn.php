@@ -4,7 +4,7 @@
 		SchoolBridge CDN Client - PHP
 		Inbox Design Limited
 		https://www.inboxdesign.co.nz/
-		https://bitbucket.org/sheldonlendrum/schoolbridge-cdn-client-php/
+		https://github.com/Inbox-Design/SchoolBridge-CDN-PHP
 	**/
 
 	namespace SchoolBridge\sbcdn;
