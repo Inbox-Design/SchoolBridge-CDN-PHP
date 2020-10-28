@@ -1,0 +1,14 @@
+{
+	"name" : "Inbox-Design/SchoolBridge-CDN-PHP",
+	"description" : "SchoolBridge PHP Client Library",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Inbox Design",
+			"email" : "support@inboxdesign.co.nz"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6",
+	}
+}
