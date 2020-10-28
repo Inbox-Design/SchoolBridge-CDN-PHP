@@ -1,5 +1,5 @@
 {
-	"name":"SchoolBridge/SBCDN",
+	"name":"schoolbridge/sbcdn",
 	"description":"SchoolBridge PHP Client Library",
 	"type":"library",
 	"license":"MIT",
