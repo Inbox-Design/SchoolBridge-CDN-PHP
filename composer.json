@@ -9,7 +9,7 @@
 	}],
 	"autoload": {
 		"psr-4": {
-			"SchoolBridge\\SBCDN\\": "src"
+			"SchoolBridge\\sbcdn\\": "src"
 		}
 	},
 	"require":{}
