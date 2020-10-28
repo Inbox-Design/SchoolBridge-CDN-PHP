@@ -1,5 +1,5 @@
 {
-	"name" : "Inbox-Design/SchoolBridge-CDN-PHP",
+	"name" : "SchoolBridge/SBCDN",
 	"description" : "SchoolBridge PHP Client Library",
 	"type" : "library",
 	"license" : "MIT",
